@@ -1,0 +1,86 @@
+.link {
+  cursor: pointer;
+  color: #34721e;
+  text-decoration: underline;
+  text-decoration-color: #34721e;
+}
+
+.header {
+  font-family: Minecraft bold;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 60px;
+  /* identical to box height, or 86% */
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Font */
+  color: #2b3b43;
+}
+
+.subheader {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* or 120% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.mintButton {
+  /* Green */
+  background: #34721e;
+  padding: 15px;
+  /* Font */
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+
+  /* identical to box height, or 95% */
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+}
+
+.mintButton:hover {
+  background-color: #32b005;
+}
+
+.divider {
+  width: 376px;
+  height: 0px;
+  border: 3px solid #2b3b43;
+  border-radius: 25px;
+}
+
+.rosterPanel {
+  width: 440px;
+  min-height: 534px;
+  left: 765px;
+  top: 612px;
+
+  background: #ffffff;
+  /* Font */
+
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.rosterText {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+}

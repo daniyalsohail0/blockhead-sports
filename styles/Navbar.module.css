@@ -1,0 +1,170 @@
+.navButton {
+  font-family: Minecraft bold;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #9ddeff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #000;
+  font-size: 150%;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.navButton:hover {
+  background-color: #87e2ff;
+}
+
+.navButton2 {
+  cursor: pointer;
+  padding-top: 3.5px;
+  text-align: center;
+  width: 82px;
+  height: 40px;
+  background: #34721e;
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.navButton2:hover {
+  background-color: #32b005;
+}
+
+.spaces {
+  width: 10px;
+}
+
+@media only screen and (min-width: 908px) {
+  .spacesBig {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 908px) {
+  .spacesBig {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 770px) {
+  .spacesBig {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 686px) and (max-width: 770px) {
+  .spacesBig {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 636px) and (max-width: 686px) {
+  .spacesBig {
+    width: 260px;
+  }
+}
+
+@media only screen and (min-width: 594px) and (max-width: 636px) {
+  .spacesBig {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 522px) and (max-width: 594px) {
+  .spacesBig {
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 496px) and (max-width: 522px) {
+  .spacesBig {
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 462px) and (max-width: 496px) {
+  .spacesBig {
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 462px) {
+  .spacesBig {
+    width: 40px;
+  }
+}
+
+.buttonText {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navButton3 {
+  font-family: Minecraft bold;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #bc0016;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #fff;
+  font-size: 150%;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.navButton3:hover {
+  background-color: #e40909;
+}
+
+.coinBalanceText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+
+@media only screen and (min-width: 1024px) {
+  .divider {
+    border: 2px solid #000000;
+  }
+}
+
+.navBlock {
+  cursor: pointer;
+  padding-top: 3.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+
+.navBlock:hover {
+  min-height: 40px;
+  background: #9ddeff;
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.bottomNav {
+  height: 83px;
+  background: #ffffff;
+}

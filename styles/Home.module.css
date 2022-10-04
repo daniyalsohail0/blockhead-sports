@@ -1,0 +1,54 @@
+.textBlock {
+  padding: 15px 30px 8px 20px;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #9ddeff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  font-weight: bold;
+  color: #2b3b43;
+  font-size: 150%;
+  line-height: 30px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.header {
+  color: #2b3b43;
+  font-family: Minecraft bold;
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+}
+
+.textBlock2 {
+  padding: 15px 15px 7px;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #9ddeff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 120%;
+  line-height: 25px;
+  text-align: justify;
+  max-width: 800px;
+}
+
+.socialButton {
+  width: 500px;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #3091ff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3rem;
+  padding: 0.2rem 0.5rem;
+}

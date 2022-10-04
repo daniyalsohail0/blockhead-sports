@@ -1,0 +1,196 @@
+.header {
+  width: 440px;
+  height: 112px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+.content {
+  width: 440px;
+  height: 88px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+
+.rosterPanel {
+  width: 440px;
+  height: 534px;
+  left: 765px;
+  top: 612px;
+
+  background: #ffffff;
+  /* Font */
+
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.rosterText {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.priceText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #2b3b43;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.qtyBox {
+  width: 100px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+  position: relative;
+}
+
+.qtyHeading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+
+.qtyText {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 26px;
+  height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b3b43;
+}
+
+.boxArrowUp {
+  cursor: pointer;
+  top: 9px;
+  left: 65px;
+  position: absolute;
+}
+
+.boxArrowDown {
+  cursor: pointer;
+  top: 35px;
+  left: 65px;
+  position: absolute;
+}
+
+.panel {
+  width: 1200px;
+  background: #f5f2f0;
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.divider {
+  width: 376px;
+  height: 0px;
+  border: 3px solid #2b3b43;
+  border-radius: 25px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  /* Font */
+  color: #2b3b43;
+}
+
+.panelFooter {
+  width: 1200px;
+  height: 92px;
+  /* Blue */
+  background: #9ddeff;
+  /* Font */
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.progressBarRed {
+  width: 20px;
+  height: 20px;
+  background: #bc0016;
+}
+
+.progressBarGreen {
+  width: 20px;
+  height: 20px;
+  background: #34721e;
+}
+
+.mintButton {
+  cursor: pointer;
+  width: 213px;
+  height: 44px;
+  background: #34721e;
+  border: 3px solid #2b3b43;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+}
+
+.mintButton:hover {
+  background-color: #32b005;
+}
+
+.mintButtonText {
+  width: 181px;
+  height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footerText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 20px;
+
+  /* identical to box height, or 67% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Font */
+  color: #2b3b43;
+}

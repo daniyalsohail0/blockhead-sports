@@ -1,0 +1,78 @@
+.header {
+  width: 617px;
+  height: 80px;
+  font-family: Minecraft bold;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2e3b42;
+}
+
+.content {
+  width: 438px;
+  height: 58px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2e3b42;
+}
+
+.button {
+  width: 291px;
+  height: 63px;
+  background: #f2f0ed;
+  border: 3px solid #34721e;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px #2b3b43;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonText {
+  width: 213.35px;
+  height: 38px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #34721e;
+}
+
+.itemCard {
+  position: relative;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.itemCard:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: #2b3b43 9px 8px 0 0;
+}
+
+#item-card:hover #item-image {
+  animation: MoveUpDown 3s linear infinite;
+}
+
+.detailCard{
+  transition: height 5s ease-in-out;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(3);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

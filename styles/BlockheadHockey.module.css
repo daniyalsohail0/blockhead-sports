@@ -1,0 +1,272 @@
+.hero {
+  max-height: 490px;
+  border: 7px solid #2b3b43;
+  border-radius: 13px;
+}
+
+.textBox {
+  max-width: 630px;
+  padding: 15px 15px 10px;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #9ddeff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 140%;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.header {
+  color: #2b3b43;
+  font-family: Minecraft bold;
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+}
+
+.buttonBoston {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #00398e;
+  border-radius: 6px;
+  background-color: #970000;
+  box-shadow: 3px 3px 0 0 #00398e;
+  color: #d3d3d3;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonBoston:hover {
+  border-color: #970000;
+  background-color: #01398e;
+  box-shadow: 3px 3px 0 0 #970000;
+  color: #acacac;
+}
+
+.buttonChicago {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #cab000;
+  border-radius: 6px;
+  background-color: #004fba;
+  box-shadow: 3px 3px 0 0 #cab000;
+  color: #cab000;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonChicago:hover {
+  border-color: #004fba;
+  background-color: #cab000;
+  box-shadow: 3px 3px 0 0 #004fba;
+  color: #004fba;
+}
+
+.buttonTempaBay {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000;
+  border-radius: 6px;
+  background-color: #00acd1;
+  box-shadow: 3px 3px 0 0 #000;
+  color: #dbdbdb;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonTempaBay:hover {
+  border-color: #00acd1;
+  background-color: #686868;
+  box-shadow: 3px 3px 0 0 #00acd1;
+  color: #00acd1;
+}
+
+.buttonDenver {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000;
+  border-radius: 6px;
+  background-color: #ca5100;
+  box-shadow: 3px 3px 0 0 #000;
+  color: #000;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonDenver:hover {
+  border-color: #ca5100;
+  background-color: #000;
+  box-shadow: 3px 3px 0 0 #ca5100;
+  color: #ca5100;
+}
+
+.buttonToronto {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #b0b0b0;
+  border-radius: 6px;
+  background-color: #0b7500;
+  box-shadow: 3px 3px 0 0 #b0b0b0;
+  color: #fff;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonToronto:hover {
+  border-color: #0b7500;
+  background-color: #b8b8b8;
+  box-shadow: 3px 3px 0 0 #0b7500;
+  color: #0b7500;
+}
+
+.buttonMinnesota {
+  cursor: pointer;
+  width: 500px;
+  padding: 0.5rem 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #d6b500;
+  border-radius: 6px;
+  background-color: #510062;
+  box-shadow: 3px 3px 0 0 #d6b500;
+  color: #d6b500;
+  font-size: 180%;
+  line-height: 28px;
+  text-align: center;
+}
+
+.buttonMinnesota:hover {
+  border-color: #510062;
+  background-color: #d6b501;
+  box-shadow: 3px 3px 0 0 #510062;
+  color: #510062;
+}
+
+.loader{
+  position: absolute;
+  top: 100px;
+}
+
+.timerBackground {
+  position: absolute;
+}
+
+.timerTitle {
+  position: absolute;
+  top: 27px;
+  left: 172px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Font */
+  color: #2b3b43;
+
+  /* Shadow Copy */
+  text-shadow: -2px 0px 0px rgba(0, 0, 0, 0.55);
+}
+.timerTime {
+  position: absolute;
+  top: 90px;
+  left:45px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 94px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Font */
+  color: #2b3b43;
+
+  /* Shadow Copy */
+  text-shadow: -2px 0px 0px rgba(0, 0, 0, 0.55);
+}
+.timerHeading {
+  position: absolute;
+  top: 172px;
+  left: 55px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+
+  /* identical to box height, or 125% */
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Font */
+  color: #2b3b43;
+}

@@ -1,0 +1,342 @@
+.header {
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ca5100;
+  font-size: 500%;
+  line-height: 64px;
+  font-family: Minecraft bold;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.textBox {
+  max-width: 700px;
+  padding: 10px 20px 9px;
+  border: 3px solid #2b3b43;
+  border-radius: 11px;
+  background-color: #9ddeff;
+  box-shadow: 2px 2px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 120%;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.viewTeamButton {
+  max-width: 700px;
+  width: 700px;
+  padding: 0.3rem 0;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #ca5100;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #000;
+  font-size: 160%;
+  text-decoration: line-through;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.viewTeamButton:hover {
+  background-color: #ec5f00;
+}
+
+.backButton {
+  cursor: pointer;
+  max-width: 700px;
+  width: 700px;
+  padding: 0.3rem 0;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #bc0016;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 160%;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.backButton:hover {
+  background-color: #e7001b;
+}
+
+.heading {
+  color: #bc0016;
+  font-size: 180%;
+}
+
+.rosterImage {
+  width: 250px;
+  display: block;
+  margin-right: 10px;
+  margin-left: 0px;
+  border: 3px solid #2b3b43;
+  border-radius: 9px;
+  background-color: #9ddeff;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  cursor: pointer;
+}
+
+.rosterImage:hover {
+  background-color: #bc0016;
+}
+
+.statsButton {
+  padding: 0.1rem 1rem;
+  font-family: Minecraft bold;
+  font-weight: bold;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #bc0016;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 160%;
+  font-style: normal;
+}
+
+.statsButton:hover {
+  background-color: #df001a;
+}
+
+.statsBlock {
+  margin-top: 44px;
+  margin-right: 0px;
+  margin-left: 5%;
+  padding: 6px 48px 6px 46px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-row-gap: 15px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  border: 6px solid #2b3b43;
+  border-radius: 10px;
+  background-color: #9ddeff;
+  box-shadow: 4px 6px 0 0 #2b3b43;
+}
+
+.statHeader {
+  display: flex;
+  margin-top: 18px;
+  margin-right: 0px;
+  margin-left: 0%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #2b3b43;
+  font-size: 180%;
+  font-family: Minecraft bold;
+  font-weight: bold;
+  line-height: 26px;
+  font-style: italic;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.3rem 1rem;
+}
+
+.nftButton1 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #e60004;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton1:hover {
+  background-color: #ff0004;
+}
+
+.nftButton2 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #0051dc;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton2:hover {
+  background-color: #005dff;
+}
+
+.nftButton3 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #e6cb00;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton3:hover {
+  background-color: #ffe100;
+}
+
+.nftButton4 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #16a200;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton4:hover {
+  background-color: #1bc900;
+}
+
+.nftButton5 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #e16d00;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton5:hover {
+  background-color: #ff7b00;
+}
+
+.nftButton6 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #9c00cb;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #f5eae0;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton6:hover {
+  background-color: #c300ff;
+}
+
+.nftButton7 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #2b3b43;
+  border-radius: 6px;
+  background-color: #ff62d0;
+  box-shadow: 3px 3px 0 0 #2b3b43;
+  color: #2b3b43;
+  font-size: 140%;
+  text-decoration: line-through;
+}
+
+.nftButton7:hover {
+  background-color: #ff9be1;
+}
+
+.backToRosterButton {
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  padding: 0.2rem 1rem;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: 3px solid #000;
+  border-radius: 11px;
+  background-color: #ca5100;
+  box-shadow: 3px 3px 0 0 #000;
+  color: #000;
+  font-size: 200%;
+  font-style: italic;
+}
+
+.backToRosterButton:hover {
+  background-color: #e75d00;
+  color: #000;
+}

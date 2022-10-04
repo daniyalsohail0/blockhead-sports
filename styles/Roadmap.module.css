@@ -1,0 +1,234 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    position: absolute;
+    width: 795px;
+    height: 384px;
+    left: calc(50% - 795px/2 + 19.5px);
+    top: 200px;
+    background: #9DDEFF;
+    border: 3px solid #2B3B43;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px 2px #2E3B42;
+    border-radius: 6px;
+}
+
+.cardHeading {
+    position: static;
+    width: 444px;
+    height: 56px;
+    left: 175.5px;
+    top: 64px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B3B43;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+
+.cardText {
+    position: static;
+    width: 667px;
+    height: 160px;
+    left: 64px;
+    top: 160px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B3B43;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+
+.headerImage {
+    position: relative;
+}
+
+.bannerImage {
+    position: static;
+    width: 1440px;
+    height: 166px;
+    margin: auto;
+    margin-top: 550px;
+
+}
+
+.roadmapBlock {
+    position: absolute;
+    width: 812px;
+    height: 2076px;
+    left: calc(50% - 795px/2 + 19.5px);
+    top: 958px;
+}
+
+.vl {
+    border: 4px dashed #BC0016;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 1963px;
+    height: 0px;
+    left: -1000px;
+    top: 979px;
+}
+
+.hl {
+    position: absolute;
+    width: 550px;
+    height: 0px;
+    left: -22px;
+    top: 1970px;
+    border: 4px dashed #BC0016;
+    transform: rotate(180deg);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 345px;
+    left: 444px;
+    top: 979px;
+}
+
+.head1 {
+    position: static;
+    width: 550px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+
+
+    /* Font */
+
+    color: #2B3B43;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.textlogo {
+    position: static;
+    width: 14px;
+    height: 14px;
+    left: calc(50% - 14px/2 + 14.5px);
+    top: calc(50% - 14px/2);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.thank{
+    position: absolute;
+    width: 289px;
+    height: 56px;
+    left: 500px;
+    top: 1940px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Font */
+
+    color: #2B3B43;
+}
+
+.bhclogo {
+    position: absolute;
+    width: 65px;
+    height: 48px;
+    left: 720px;
+    top: 2000px;
+}
+
+.circle1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -60px;
+    top: 0px;
+    border-radius: 50%;
+    background: #BC0016;
+    z-index: 1;
+}
+
+
+
+.circle2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -60px;
+    top: 500px;
+    border-radius: 50%;
+    background: #BC0016;
+    z-index: 1;
+}
+
+.circle3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -60px;
+    top: 750px;
+    border-radius: 50%;
+    background: #BC0016;
+    z-index: 1;
+}
+
+.circle4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -60px;
+    top: 1125px;
+    border-radius: 50%;
+    background: #BC0016;
+    z-index: 1;
+}
+
+.circle5 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -60px;
+    top: 1525px;
+    border-radius: 50%;
+    background: #BC0016;
+    z-index: 1;
+}

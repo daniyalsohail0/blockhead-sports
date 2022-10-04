@@ -1,0 +1,116 @@
+.header {
+  position: relative;
+  width: 444px;
+  height: 56px;
+  font-style: italic;
+  font-weight:bolder;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #2B3B43;
+}
+
+.faq {
+  display: block;
+  position: relative;
+  width: 680px;
+  height: auto;
+  left: calc(50% - 1000px/2 + 19.5px);
+  top: 100px;
+  
+}
+
+.heading {
+  position: relative;
+  width: 444px;
+  height: 56px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #2B3B43;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.quicknav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 133px;
+  height: 148px;
+  left: calc(50% + 600px/2 + 19.5px);
+  top: 400px;
+}
+
+.navtext {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 8%;
+}
+
+.navtext:hover {
+  color: #BC0016;
+  font-size: larger; 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+  width:auto;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+  
+.accordion {
+  width: 500px;
+}
+  
+.item {
+  background: white;
+  margin-bottom: 14px;
+  padding: 10px 20px;
+  border: 4px solid #2B3B43;
+  box-shadow: 3px 3px #2B3B43;
+  border-radius: 5px;
+}
+  
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B3B43;
+}
+  
+.content {
+  color:black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+  
+.content.show {
+  height:auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.polygon {
+  position: relative;
+  width: 16px;
+  height: 12px;
+  transform: rotate(180deg)
+}
+

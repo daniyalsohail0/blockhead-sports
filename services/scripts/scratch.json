@@ -1,0 +1,70 @@
+{
+  "marketplace": [
+    {
+      "bg": {
+        "id": "bg",
+        "description": "The player(s) of your choice will earn you 2x the BHC for every goal they score.",
+        "cost": 20,
+        "multiplier": 2,
+        "title": "2x Goals",
+        "type": "g",
+        "updated": ""
+      }
+    },
+    {
+      "bh": {
+        "id": "bh",
+        "description": "The player(s) of your choice will earn you 2x the BHC for every crushing hit they deliver. ",
+        "cost": 20,
+        "multiplier": 2,
+        "title": "2x Hits",
+        "type": "h",
+        "updated": ""
+      }
+    },
+    {
+      "bs": {
+        "id": "bs",
+        "description": "The player(s) of your choice will earn you 2x the BHC for every save. Only available to goalies!  ",
+        "cost": 20,
+        "multiplier": 2,
+        "title": "2x Saves",
+        "type": "s",
+        "updated": ""
+      }
+    },
+    {
+      "ba": {
+        "id": "ba",
+        "description": "The player(s) of your choice will earn you 2x the BHC for every assist they record.",
+        "cost": 20,
+        "multiplier": 2,
+        "title": "2x Assists",
+        "type": "a",
+        "updated": ""
+      }
+    },
+    {
+      "bw": {
+        "id": "bw",
+        "description": "The player(s) of your choice will earn you 2x the BHC for every assist they record.",
+        "cost": 25,
+        "multiplier": 2,
+        "title": "2x Win Bonus",
+        "type": "w",
+        "updated": ""
+      }
+    },
+    {
+      "bn": {
+        "id": "bn",
+        "description": "The player(s) of your choice are immune to minuses when a goal is allowed during their shift on the ice.",
+        "cost": 25,
+        "multiplier": "s",
+        "title": "No Subtraction of Point",
+        "type": "nomin",
+        "updated": ""
+      }
+    }
+  ]
+}
